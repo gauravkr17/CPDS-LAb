@@ -19,7 +19,7 @@ void main(){
         printf("%d is a palindrome number.\n" , t);
     }
     else{
-        printf("%d is not a palindrome number.\n");
+        printf("%d is not a palindrome number.\n", t);
     }
     
 }
