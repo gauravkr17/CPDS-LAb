@@ -13,7 +13,7 @@ void main(){
 
     for (i = 1; i <= n; i++)
     {
-        printf("%lld\n", a);    // ll is for long long
+        printf("%lld\n", a);    // ll is for long long and 'd' is for integer
         c=a+b;
         a=b;
         b=c;
