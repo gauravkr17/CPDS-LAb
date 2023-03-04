@@ -27,15 +27,15 @@ void main(){
     int year = days/365;
     printf("%d Year," , year);
 
-    days=days%365;
+    days=days%365;              // days updated
     int month = days/30;
     printf("%d Months," , month);
 
-    days = days%30;
+    days = days%30;              // days updated
     int weeks = days/7;
     printf("%d Weeks," , weeks);
 
-    days = days%7;
+    days = days%7;               // days updated
     printf("%d Days" , days);
     
 
