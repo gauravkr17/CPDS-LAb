@@ -10,17 +10,19 @@ void main(){
 
     for ( i = 1; i <= rows; ++i, k=0)
     {
+        // print space in each row before the stars
         for ( j = 1; j <= rows-i; ++j)
         {
             printf(" ");
 
         }
+        // print stars for each row
         while (k!=2*i-1)
         {
             printf("*");
             ++k;
         }
-        printf("\n");
+        printf("\n"); // move to the next line for the next row
     }
     
 
