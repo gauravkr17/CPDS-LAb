@@ -32,6 +32,29 @@ void main(){
 
 
 
+
+        /*
+                    LOGIC:
+
+
+                    1.  the outer loop runs for the number of rows entered by the user.
+                        Inside the outer loo, there are nested for loop one to print the
+                        spaces before the stars and while for print the stars for each row.
+
+                    2.  the first inner loop prints spaces before the stars. The number of 
+                        spaces printed decreases as the row number increases, so we need to subtract 
+                        the row number from the total number of rows to get the correct number of spsces.
+
+                    3.  the second inner loop prints the stars for each row. The number of stars printed 
+                        increases as the row number increases. We use the formula '2*i-1' to calculate the
+                        number of stars to be printed in each row.
+
+                    4.  Finally, we move to the next line for the next row using ("\n") statement.
+        */
+
+
+
+
 /*  Explaination:
 
     1. the user is prompted to enter the number of rows for the pyramid pattern to be printed.
