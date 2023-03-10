@@ -9,7 +9,10 @@ void main(){
     printf("Enter the length of square in cm : ");
     scanf("%f", &length);
 
+
+    // Perimeter
     printf("Perimeter of square is %.2f cm\n", length*4);
+    // Area
     printf("Area of square is %.2f sq.cm\n", length*length);
 
 
@@ -22,7 +25,9 @@ void main(){
     printf("Enter the width of rectangle in cm : ");
     scanf("%f", &width);
 
+    // Perimeter
     printf("Perimeter of rectangle is %.2f cm\n", 2*length1 + 2*width);
+    // Area
     printf("Area of rectangle is %.2f sq.cm\n", length1*width);
 
 
@@ -31,7 +36,9 @@ void main(){
     printf("Enter the radius of circle in cm : ");
     scanf("%f", &radius);
 
+    // Perimeter
     printf("Perimeter of circle is %.2f cm\n", 2*3.14*radius);
+    // Area
     printf("Area of circle is %.2f sq.cm\n", 3.14*radius*radius);
 
     
