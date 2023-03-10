@@ -14,14 +14,14 @@ void main(){
     printf("Enter num2 : ");
     scanf("%d" , &num2);
 
-    // float sum=num1+num2;
-    // float sum1=num1-num2;
-    // float sum2=num1/num2;
-    // float sum3=num1*num2;
+    float sum=num1+num2;
+    float sum1=num1-num2;
+    float sum2=num1/num2;
+    float sum3=num1*num2;
 
-    printf("Addition Of these two numbers is %d\n" ,num1+num2);
-    printf("Substraction Of these two numbers is %d\n" ,num1-num2);
-    printf("Division Of these two numbers give quotient %d\n" ,num1/num2);
-    printf("Multiplication Of these two numbers is %d\n" ,num1*num2);
+    printf("Addition Of these two numbers is %d\n" ,sum);
+    printf("Substraction Of these two numbers is %d\n" ,sum1);
+    printf("Division Of these two numbers give quotient %d\n" ,sum2);
+    printf("Multiplication Of these two numbers is %d\n" ,sum3);
 
 }
