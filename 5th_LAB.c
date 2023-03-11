@@ -27,7 +27,7 @@ void main(){
     int year = days/365;
     printf("%d Year," , year);
 
-    days=days%365;              // days updated
+    days = days%365;              // days updated
     int month = days/30;
     printf("%d Months," , month);
 
